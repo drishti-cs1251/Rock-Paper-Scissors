@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #a14d1e; /* Dark Orange */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center vertically */
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.choices {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+}
+
+.choices button {
+    font-size: 24px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px; /* Increase button width */
+}
+
+.choices button:hover {
+    background-color: yellow;
+}
+
+.result {
+    font-size: 32px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.scoreboard {
+    font-size: 28px;
+    margin-top: 15px;
+}
